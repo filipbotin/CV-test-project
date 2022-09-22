@@ -1,0 +1,184 @@
+
+body{
+    max-width: auto;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    font-size: x-large;
+    padding-top: 125px;
+    background-color: whitesmoke; 
+    opacity: 1.0;
+}
+
+#frontbilden{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 350px;
+    max-width: 100%;
+    height: 400px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+    
+}
+
+.navbar{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.navbar li{
+    display: inline-block;
+    padding: 0 50px;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+
+.huvudtext{
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+}
+
+.huvudstycket{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 10px; /* mellamrummet rubriken och text+bild*/
+}
+
+#huvudrubrik{
+    margin: 20px 15px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    font-weight: normal;
+}
+
+#referensinfo{
+    margin: 100px 15px;
+    padding: 0px 75px;
+    /*position: relative;*/
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+#huvudparagraf{
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+img{
+    height: 650px;
+}
+
+.infolistan{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 200px 0px 40px; /* mellamrummet rubriken och text+bild*/
+}
+
+#referenser{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+#caption{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.kontaktuppg{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 100px; /* mellamrummet rubriken och text+bild*/
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.button{
+    color: darkgray;
+}
+
+.botton:hover{
+        color: red;
+        text-decoration: none;
+        cursor: default;
+}
+
+.rubrikref1{
+        margin: 20px 15px;
+        padding: 0 10px;
+        /*position: relative;*/
+        text-align: center;
+        padding-top: 100px;
+        font-weight: normal;
+        font-size: 22px;
+        
+}
+
+.rubrikref2{
+    margin: 20px 15px;
+    padding: 0 10px;
+    /*position: relative;*/
+    text-align: center;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.kontaktdel1{
+    margin-top: 180px;
+    text-align: center;
+}
+
+#kontaktdel1h3{
+    padding-top: 40px;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0px 40%;
+}
+
+#bottenlinken{
+    text-align: center;
+
+}
